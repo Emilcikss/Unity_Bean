@@ -2,49 +2,43 @@
 
 public class TVChannelCycler : MonoBehaviour
 {
-
     public GameObject channel1;
     public GameObject channel2;
     public GameObject channel3Noise;
 
- 
-    [Range(1, 3)]
-    public int startChannel = 1;
+    private int currentChannel = 1;
 
-    private int currentChannel;
-
-    private void Start()
+    void Start()
     {
-        currentChannel = startChannel;
-        ApplyChannel();
+        ShowChannel();
     }
 
-  
+    // КНОПКА >
     public void NextChannel()
     {
         if (currentChannel < 3)
         {
             currentChannel++;
-            ApplyChannel();
+            ShowChannel();
         }
-        
     }
 
+    // КНОПКА <
     public void PrevChannel()
     {
         if (currentChannel > 1)
         {
             currentChannel--;
-            ApplyChannel();
+            ShowChannel();
         }
     }
 
-    private void ApplyChannel()
+    void ShowChannel()
     {
-        if (channel1 != null) channel1.SetActive(currentChannel == 1);
-        if (channel2 != null) channel2.SetActive(currentChannel == 2);
-        if (channel3Noise != null) channel3Noise.SetActive(currentChannel == 3);
+        channel1.SetActive(currentChannel == 1);
+        channel2.SetActive(currentChannel == 2);
+        channel3Noise.SetActive(currentChannel == 3);
 
-        Debug.Log("Current channel: " + currentChannel);
+        Debug.Log("CHANNEL: " + currentChannel);
     }
 }

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30961986}
   - component: {fileID: 30961985}
+  - component: {fileID: 30961987}
   m_Layer: 0
   m_Name: 3KANALS P
   m_TagString: Untagged
@@ -207,6 +208,20 @@ Transform:
   - {fileID: 2130671596}
   m_Father: {fileID: 962366111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30961987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30961984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e700435caa9f548944f08e12cc023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  sound: {fileID: 8300000, guid: c3b892e8d407ca4438be1b3b9d438093, type: 3}
 --- !u!1 &67910848
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,11 +466,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1968622944}
-  m_Father: {fileID: 525824899}
+  m_Father: {fileID: 1952018986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 382.3, y: -289.3}
+  m_AnchoredPosition: {x: -177.51996, y: 0}
   m_SizeDelta: {x: 60.8768, y: 56.2486}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312885677
@@ -567,7 +582,6 @@ MonoBehaviour:
   channel1: {fileID: 1437482364}
   channel2: {fileID: 509199433}
   channel3Noise: {fileID: 30961984}
-  startChannel: 1
 --- !u!1 &330320302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,7 +1056,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1932722817}
-  - {fileID: 312885676}
   - {fileID: 1952018986}
   - {fileID: 1657878735}
   m_Father: {fileID: 962366111}
@@ -2367,6 +2380,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 312885676}
   - {fileID: 2023818462}
   m_Father: {fileID: 525824899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2484,7 +2498,6 @@ MonoBehaviour:
   channel1: {fileID: 1437482364}
   channel2: {fileID: 509199433}
   channel3Noise: {fileID: 30961984}
-  startChannel: 1
 --- !u!1 &1968622943
 GameObject:
   m_ObjectHideFlags: 0
