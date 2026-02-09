@@ -17,6 +17,8 @@ public class HoverSFX : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         audioSource.PlayOneShot(hoverClip);
         hasPlayed = true;
+
+        Debug.Log("HOVER: " + gameObject.name);
     }
 
     public void OnPointerExit(PointerEventData eventData)
