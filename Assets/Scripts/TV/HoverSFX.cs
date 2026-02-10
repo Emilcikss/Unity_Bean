@@ -1,28 +1,26 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class HoverSFX : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class ClickSFX : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip hoverClip;
-    [SerializeField] private bool playOnceUntilExit = true;
+    [SerializeField] private AudioClip clickClip;
 
-    private bool hasPlayed;
-
-    public void OnPointerEnter(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if (audioSource == null || hoverClip == null) return;
+        if (audioSource == null)
+        {
+            Debug.LogError("ClickSFX: AudioSource not assigned");
+            return;
+        }
 
-        if (playOnceUntilExit && hasPlayed) return;
+        if (clickClip == null)
+        {
+            Debug.LogError("ClickSFX: AudioClip not assigned");
+            return;
+        }
 
-        audioSource.PlayOneShot(hoverClip);
-        hasPlayed = true;
-
-        Debug.Log("HOVER: " + gameObject.name);
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        hasPlayed = false;
+        audioSource.PlayOneShot(clickClip);
+        Debug.Log("CLICK SOUND: " + gameObject.name);
     }
 }
