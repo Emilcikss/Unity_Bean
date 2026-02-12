@@ -1,15 +1,15 @@
 <div align="center">
 
 <h1>UNITY_BEAN ▣ MR. BĪNS UI + TV PROJECT</h1>
-<p><b>Unity 6 projekts, kas demonstrē UI sistēmas, interaktīvu TV ainu ar kanāliem, statiku, skaņām un mini-notikumiem.</b></p>
+<p><b>Unity projekts, kas demonstrē UI sistēmas, interaktīvu TV ainu ar kanāliem, statiku, skaņām un mini-notikumiem.</b></p>
 
 <p>
-  <a href="#-quick-links">Quick Links</a> ▣
-  <a href="#-preview">Preview</a> ▣
-  <a href="#-features">Features</a> ▣
-  <a href="#-tasks">Tasks</a> ▣
-  <a href="#-setup--run">Setup</a> ▣
-  <a href="#-structure">Structure</a> ▣
+  <a href="#-quick-links">Quick Links</a> 
+  <a href="#-preview">Preview</a> 
+  <a href="#-features">Features</a> 
+  <a href="#-tasks">Tasks</a> 
+  <a href="#-setup--run">Setup</a>
+  <a href="#-structure">Structure</a> 
   <a href="#-roadmap">Roadmap</a>
 </p>
 
@@ -34,7 +34,7 @@
 
 <br/><br/>
 
-<img src="Docs/banner_main.png" alt="Banner" width="900">
+<img src="[Docs/banner_main.png](https://chatgpt.com/backend-api/estuary/content?id=file_00000000bed8720a9e9c696317d1af81&ts=491921&p=fs&cid=1&sig=8f058a96953a7fdbb5e97badb7755f645e1efaacda5a86604e225821fe1345b4&v=0)" alt="Banner" width="900">
 
 </div>
 
