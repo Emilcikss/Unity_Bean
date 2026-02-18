@@ -3635,6 +3635,7 @@ GameObject:
   - component: {fileID: 2078241878}
   - component: {fileID: 2078241880}
   - component: {fileID: 2078241879}
+  - component: {fileID: 2078241881}
   m_Layer: 5
   m_Name: carb
   m_TagString: Untagged
@@ -3699,6 +3700,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078241877}
   m_CullTransparentMesh: 1
+--- !u!114 &2078241881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078241877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc2129d764f5f8147a58f8178dd71844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 504300074}
+  clickClip: {fileID: 8300000, guid: 209cb9aa2d18c5f4b9fdbcc65e9aef30, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
