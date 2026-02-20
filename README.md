@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>UNITY_BEAN MR. BĪNS UI + TV PROJECT</h1>
+<h1>UNITY_BEAN MR. BĪNS + TV PROJEKTS</h1>
 <p><b>Unity projekts, kas demonstrē UI sistēmas, interaktīvu TV ainu ar kanāliem, statiku, skaņām un mini-notikumiem.</b></p>
 
 <p>
@@ -27,13 +27,6 @@
 
 <br/><br/>
 
-<img alt="Unity" src="https://img.shields.io/badge/ENGINE-UNITY_6-0b0b0b?style=flat-square&logo=unity&logoColor=white">
-<img alt="Platform" src="https://img.shields.io/badge/PLATFORM-WINDOWS-0b0b0b?style=flat-square&logo=windows&logoColor=white">
-<img alt="Scenes" src="https://img.shields.io/badge/SCENES-MAINMENU_%7C_UI_%7C_TV-0b0b0b?style=flat-square&logo=buffer&logoColor=white">
-<img alt="Focus" src="https://img.shields.io/badge/FOCUS-UI%20%7C%20SFX%20%7C%20STATE-0b0b0b?style=flat-square">
-
-<br/><br/>
-
 <img src="BANNER.png" alt="Banner" width="900">
 
 </div>
@@ -48,23 +41,6 @@
   <li><b>Scenes:</b> <a href="#-scenes">MainMenu / UI_scene / TV</a></li>
   <li><b>Tasks:</b> <a href="#-tasks">Done / In progress</a></li>
 </ul>
-
-<hr/>
-
-<h2 id="-preview">◈ PREVIEW</h2>
-
-<table>
-  <tr>
-    <td align="center"><b>TV Scene</b><br/><img src="Docs/preview_tv.png" width="420" alt="TV Preview"></td>
-    <td align="center"><b>UI Scene</b><br/><img src="Docs/preview_ui.png" width="420" alt="UI Preview"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Static + Channel switch</b><br/><img src="Docs/preview_switch.gif" width="420" alt="Switch Preview"></td>
-    <td align="center"><b>Car Chaos event</b><br/><img src="Docs/preview_channel2.gif" width="420" alt="Car Chaos Preview"></td>
-  </tr>
-</table>
-
-<p><i>Tip:</i> Ieliec bildes/GIF mapē <code>Docs/</code> ar tiem pašiem nosaukumiem.</p>
 
 <hr/>
 
@@ -183,31 +159,6 @@
     <li><b>Build</b></li>
   </ol>
 </details>
-
-<hr/>
-
-<h2 id="-structure">◈ PROJECT STRUCTURE</h2>
-
-<pre>
-Assets/
-  Scenes/
-    MainMenu.unity
-    UI_scene.unity
-    TV.unity
-  Scripts/
-    TV/
-  Images/
-  Sounds/ (vai sfx/)
-  Fonts/
-Docs/
-  banner_main.png
-  preview_tv.png
-  preview_ui.png
-  preview_switch.gif
-  preview_channel2.gif
-</pre>
-
-<hr/>
 
 <h2 id="-roadmap">◈ ROADMAP (mazs, bet jaudīgs)</h2>
 
