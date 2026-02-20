@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>UNITY_BEAN MR. BĪNS + TV PROJEKTS</h1>
-<p><b>Unity projekts, kas demonstrē UI sistēmas, interaktīvu TV ainu ar kanāliem, statiku, skaņām un mini-notikumiem.</b></p>
+<p><b>Unity projekts, kas demonstrē UI sistēmas, interaktīvu TV ainu ar kanāliem, statiku, skaņām un mini-notikumiem, kā arī 2D “BeanRun” skrējiena ainu ar animācijām un fiziku.</b></p>
 
 <p>
   <a href="#-quick-links">Quick Links</a> 
@@ -38,8 +38,20 @@
 <ul>
   <li><b>Releases (builds):</b> <a href="https://github.com/Emilcikss/Unity_Bean/releases">Download latest</a></li>
   <li><b>Source ZIP:</b> <a href="https://github.com/Emilcikss/Unity_Bean/archive/refs/heads/main.zip">Download source</a></li>
-  <li><b>Scenes:</b> <a href="#-scenes">MainMenu / UI_scene / TV</a></li>
+  <li><b>Scenes:</b> <a href="#-scenes">MainMenu / UI_scene / TV / RUN</a></li>
   <li><b>Tasks:</b> <a href="#-tasks">Done / In progress</a></li>
+</ul>
+
+<hr/>
+
+<h2 id="-preview">◈ PREVIEW</h2>
+
+<p><i>Pieliec savus screenshotus / GIF'us (ieteicams mapē Docs/ un nomainīt linkus).</i></p>
+
+<ul>
+  <li><b>TV:</b> kanāli + statika + skaņas + mini notikumi</li>
+  <li><b>UI_scene:</b> UI demo ar vairākām komponentēm</li>
+  <li><b>RUN (BeanRun):</b> 2D skrējiens ar animācijām, fiziku un platformām</li>
 </ul>
 
 <hr/>
@@ -51,9 +63,10 @@
 </p>
 
 <ul>
-  <li><b>MainMenu</b> — vienkārša izvēlne, pāreja uz pārējām ainām</li>
+  <li><b>MainMenu</b> — galvenā izvēlne ar pārejām uz citām ainām + “Back to Menu” sistēma</li>
   <li><b>UI_scene</b> — UI elementu demonstrācija (ievade, teksti, toggles, slideri, dropdown, scroll)</li>
   <li><b>TV</b> — retro TV sistēma ar kanāliem, statiku, skaņām un interaktīviem objektiem</li>
+  <li><b>RUN (BeanRun)</b> — 2D skrējiena aina ar platformām, animācijām (idle/walk/jump/fall) un fiziku</li>
 </ul>
 
 <hr/>
@@ -62,9 +75,10 @@
 
 <table>
   <tr>
-    <td width="33%"><b>MainMenu</b><br/>Ieejas punkts, navigācija starp ainām.</td>
-    <td width="33%"><b>UI_scene</b><br/>UI testēšana: ievade, toggles, slideri, dropdown, scroll, objekti.</td>
-    <td width="33%"><b>TV</b><br/>Kanāli 1–3, OFF melnais ekrāns, statiska pāreja, skaņu kontrole, notikumi.</td>
+    <td width="25%"><b>MainMenu</b><br/>Ieejas punkts, navigācija starp ainām + Exit.</td>
+    <td width="25%"><b>UI_scene</b><br/>UI testēšana: ievade, toggles, slideri, dropdown, scroll, objekti.</td>
+    <td width="25%"><b>TV</b><br/>Kanāli 1–3, OFF melnais ekrāns, statiska pāreja, skaņu kontrole, notikumi.</td>
+    <td width="25%"><b>RUN</b><br/>2D kustība + lēciens + animācijas + platformas/zemes kolīzijas.</td>
   </tr>
 </table>
 
@@ -92,15 +106,38 @@
     <li>Checkbox / Toggle grupas (personāži)</li>
     <li>Slideri (izmērs / rotācija)</li>
     <li>Dropdown / ScrollView</li>
-    <li>Vienkārša interakcija ar elementiem</li>
+    <li>Vienkārša interakcija ar elementiem + SFX</li>
+  </ul>
+</details>
+
+<details open>
+  <summary><b>RUN (BeanRun) sistēma</b></summary>
+  <ul>
+    <li>2D kustība pa X (pa kreisi/pa labi)</li>
+    <li>Lēciens (Space)</li>
+    <li>GroundCheck ar LayerMask (Ground)</li>
+    <li>Animācijas: Idle / Walk / Jump / Fall (Animator Controller)</li>
+    <li>Flip bez scale laušanas (SpriteRenderer.flipX)</li>
+    <li>Platformas/zemes kolīzijas (Collider2D + Rigidbody2D)</li>
   </ul>
 </details>
 
 <hr/>
 
+<h2 id="-controls">◈ CONTROLS</h2>
+
+<ul>
+  <li><b>A / D</b> vai <b>← / →</b> — kustība (RUN)</li>
+  <li><b>Space</b> — lēciens (RUN)</li>
+  <li><b>MainMenu pogas</b> — pārejas uz TV / UI / RUN</li>
+  <li><b>Back</b> — atgriezties uz MainMenu (katrai ainai)</li>
+</ul>
+
+<hr/>
+
 <h2 id="-tasks">◈ TASKS</h2>
 
-<p><b>Statuss:</b> izdarīts pamats + TV sistēma, turpinās polish un build.</p>
+<p><b>Statuss:</b> UI + TV + RUN pamats ir gatavs, turpinās polish un final build.</p>
 
 <table>
   <tr>
@@ -114,22 +151,24 @@
         <li>[x] Dropdown + ScrollView (UI_scene)</li>
         <li>[x] Drag & Drop (UI demo)</li>
         <li>[x] AudioSource + SFX sistēma</li>
-        <li>[x] MainMenu aina</li>
+        <li>[x] MainMenu aina + pārejas uz scenām</li>
         <li>[x] TV aina: ON/OFF + 3 kanāli</li>
         <li>[x] Statisks overlay + statiska skaņa (fade)</li>
         <li>[x] Klikšķu interakcija kanālos</li>
-        <li>[x] Notikuma stāvoklis (CarChaos) + saglabāšana (opc.)</li>
+        <li>[x] RUN aina: kustība + lēciens + platformas</li>
+        <li>[x] Rigidbody2D + Collider2D (RUN)</li>
+        <li>[x] Animator: Idle/Walk/Jump/Fall + Speed/Grounded/YVel</li>
       </ul>
     </td>
     <td width="50%">
       <b>▣ Nav izdarīts / Nākamais</b>
       <ul>
-        <li>[ ] Rigidbody + Collider (fizika)</li>
-        <li>[ ] Windows build sagatavošana (final export)</li>
+        <li>[ ] Windows build sagatavošana (final export + release)</li>
         <li>[ ] Virtuļu ķeršanas mini-spēle (integrācija)</li>
         <li>[ ] TV pogu animācijas (press/scale)</li>
         <li>[ ] CRT efekts (scanlines/vignette)</li>
         <li>[ ] Papildu kanālu “mini-notikumi”</li>
+        <li>[ ] RUN: kamera follow + vienkāršs score / distance</li>
       </ul>
     </td>
   </tr>
@@ -145,7 +184,7 @@
     <li>Clone repo vai lejupielādē ZIP</li>
     <li>Unity Hub → <b>Add</b> → izvēlies projekta mapi</li>
     <li>Atver ar <b>Unity 6</b></li>
-    <li>Atver ainu: <code>Assets/Scenes/MainMenu.unity</code> vai <code>TV.unity</code></li>
+    <li>Atver ainu: <code>Assets/Scenes/MainMenu.unity</code></li>
     <li>▶ Play</li>
   </ol>
 </details>
@@ -155,18 +194,42 @@
   <ol>
     <li><code>File → Build Settings</code></li>
     <li><b>Windows, Mac, Linux</b> → Target: <b>Windows</b></li>
-    <li><b>Add Open Scenes</b></li>
+    <li><b>Add Open Scenes</b> (MainMenu / UI_scene / TV / RUN)</li>
     <li><b>Build</b></li>
   </ol>
 </details>
 
+<hr/>
+
+<h2 id="-structure">◈ PROJECT STRUCTURE</h2>
+
+<pre>
+Assets/
+  Scenes/
+    MainMenu.unity
+    UI_scene.unity
+    TV.unity
+    RUN.unity
+  Scripts/
+    MainMenu/
+    TV/
+    RUN/
+  Images/
+  Sounds/ (vai sfx/)
+  Fonts/
+BANNER.png
+</pre>
+
+<hr/>
+
 <h2 id="-roadmap">◈ ROADMAP (mazs, bet jaudīgs)</h2>
 
 <ul>
-  <li>▣ Integrēt virtuļu mini-spēli TV kanālā</li>
-  <li>▣ UI polish: pogu animācijas + skaņas mikro-detaļas</li>
-  <li>▣ CRT vizuālais slānis (scanlines) + TV ieslēgšanas animācija</li>
   <li>▣ Final Windows build + Release</li>
+  <li>▣ CRT vizuālais slānis (scanlines) + TV ieslēgšanas animācija</li>
+  <li>▣ TV un UI polish (pogām animācijas + mikro skaņas)</li>
+  <li>▣ RUN: distance/score + kamera follow</li>
+  <li>▣ Integrēt virtuļu mini-spēli</li>
 </ul>
 
 <hr/>
