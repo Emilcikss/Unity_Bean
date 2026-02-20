@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: ec97f9c64bf006c42a63dc7a1fea8b57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -601842470960458699
+    second: bean_fall_0
+  - first:
+      213: -5831015418844514484
+    second: bean_fall_1
+  - first:
+      213: -5518213665424217975
+    second: bean_fall_2
+  - first:
+      213: -1581037931678098294
+    second: bean_fall_3
+  - first:
+      213: 5170368990417588921
+    second: bean_fall_4
+  - first:
+      213: 3368860730585978449
+    second: bean_fall_5
+  - first:
+      213: -4264613013204131204
+    second: bean_fall_6
+  - first:
+      213: 6847230370765842003
+    second: bean_fall_7
+  - first:
+      213: 357421585132523356
+    second: bean_fall_8
+  - first:
+      213: 24842092578416890
+    second: bean_fall_9
+  - first:
+      213: -1141970598982175864
+    second: bean_fall_10
+  - first:
+      213: 8223284729459657955
+    second: bean_fall_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bean_fall_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 222
+        width: 1242
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b21987f337d0c740800000000000000
+      internalID: 5170368990417588921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e0c3f8ce11e81841b034e195ffaba44
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bean_fall_0: -601842470960458699
+      bean_fall_1: -5831015418844514484
+      bean_fall_10: -1141970598982175864
+      bean_fall_11: 8223284729459657955
+      bean_fall_2: -5518213665424217975
+      bean_fall_3: -1581037931678098294
+      bean_fall_4: 5170368990417588921
+      bean_fall_5: 3368860730585978449
+      bean_fall_6: -4264613013204131204
+      bean_fall_7: 6847230370765842003
+      bean_fall_8: 357421585132523356
+      bean_fall_9: 24842092578416890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

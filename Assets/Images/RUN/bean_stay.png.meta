@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 431da8f436441b24595497ed15a4bac8
+guid: 56484bb6991bd6c4a902b8ccd0481ab8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9167535528620030160
-    second: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_0"
+      213: 4605659505492554067
+    second: bean_stay_0
   - first:
-      213: 7761342460788300761
-    second: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_1"
+      213: 48750353822080826
+    second: bean_stay_1
   - first:
-      213: 8312971297603868552
-    second: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_2"
+      213: -3236086242468895639
+    second: bean_stay_2
   - first:
-      213: 3074445500662558148
-    second: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_3"
+      213: -2659389713198865338
+    second: bean_stay_3
   - first:
-      213: -2380040567795707716
-    second: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_4"
+      213: -3168867712090432690
+    second: bean_stay_4
+  - first:
+      213: 1455070869901387971
+    second: bean_stay_5
+  - first:
+      213: 8912615378057251908
+    second: bean_stay_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,35 +118,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_0"
+      name: bean_stay_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 57
-        width: 1000
-        height: 962
+        x: 12
+        y: 0
+        width: 356
+        height: 1023
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 114, y: 299, z: 0, w: 285}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d87b29ddf0a93f70800000000000000
-      internalID: 9167535528620030160
+      spriteID: 351f84d1be69aef30800000000000000
+      internalID: 4605659505492554067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_1"
+      name: bean_stay_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 589
-        width: 10
-        height: 10
+        x: 83
+        y: 623
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9db5173c8d3d5bb60800000000000000
-      internalID: 7761342460788300761
+      spriteID: a3f5d3240323da000800000000000000
+      internalID: 48750353822080826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_2"
+      name: bean_stay_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 555
-        width: 10
-        height: 11
+        x: 492
+        y: 300
+        width: 178
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88752b5e95b9d5370800000000000000
-      internalID: 8312971297603868552
+      spriteID: 964ec1f35bc1713d0800000000000000
+      internalID: -3236086242468895639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_3"
+      name: bean_stay_3
       rect:
         serializedVersion: 2
-        x: 147
-        y: 519
-        width: 12
-        height: 10
+        x: 783
+        y: 302
+        width: 181
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +199,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cd2a4cc4ef9aaa20800000000000000
-      internalID: 3074445500662558148
+      spriteID: 64424795523f71bd0800000000000000
+      internalID: -2659389713198865338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_4"
+      name: bean_stay_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 495
-        width: 10
-        height: 14
+        x: 1058
+        y: 289
+        width: 453
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 258, w: 288}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b15a0fa9be504d0800000000000000
+      internalID: -3168867712090432690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bean_stay_5
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 302
+        width: 175
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +243,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb0948da6b568fed0800000000000000
-      internalID: -2380040567795707716
+      spriteID: 3c8ad733f33713410800000000000000
+      internalID: 1455070869901387971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bean_stay_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 543
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c49cc1778ffab70800000000000000
+      internalID: 8912615378057251908
       vertices: []
       indices: 
       edges: []
@@ -225,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b06fbc4078c904c47a0973fe0b24fb24
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_0": 9167535528620030160
-      "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_1": 7761342460788300761
-      "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_2": 8312971297603868552
-      "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_3": 3074445500662558148
-      "ChatGPT Image 11 \u0444\u0435\u0432\u0440. 2026 \u0433., 14_27_40_4": -2380040567795707716
+      bean_stay_0: 4605659505492554067
+      bean_stay_1: 48750353822080826
+      bean_stay_2: -3236086242468895639
+      bean_stay_3: -2659389713198865338
+      bean_stay_4: -3168867712090432690
+      bean_stay_5: 1455070869901387971
+      bean_stay_6: 8912615378057251908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
