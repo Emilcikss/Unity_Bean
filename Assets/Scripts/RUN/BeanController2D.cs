@@ -14,6 +14,9 @@ public class BeanController2D : MonoBehaviour
     [Header("Animator")]
     [SerializeField] private Animator animators;
 
+    [Header("Sprite")]
+    [SerializeField] private SpriteRenderer spriteRenderer;
+
     private Rigidbody2D rb;
     private float x;
     private bool uzZemes;
@@ -21,33 +24,47 @@ public class BeanController2D : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        if (animators == null) animators = GetComponent<Animator>();
+
+        if (animators == null)
+            animators = GetComponentInChildren<Animator>();
+
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void Update()
     {
+        // Input
         x = Input.GetAxisRaw("Horizontal");
 
+        // Flip without changing scale
+        if (spriteRenderer != null)
+        {
+            if (x > 0) spriteRenderer.flipX = false;
+            else if (x < 0) spriteRenderer.flipX = true;
+        }
+
+        // Ground check
         if (zemesPunkts != null)
             uzZemes = Physics2D.OverlapCircle(zemesPunkts.position, zemesRadius, zemesSlanis);
 
+        // Jump
         if (Input.GetKeyDown(KeyCode.Space) && uzZemes)
-            rb.velocity = new Vector2(rb.velocity.x, leciens);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, leciens);
 
-        if (x != 0)
-            transform.localScale = new Vector3(Mathf.Sign(x), 1f, 1f);
-
+        // Animator params
         if (animators != null)
         {
             animators.SetFloat("Speed", Mathf.Abs(x));
             animators.SetBool("Grounded", uzZemes);
-            animators.SetFloat("YVel", rb.velocity.y);
+            animators.SetFloat("YVel", rb.linearVelocity.y);
         }
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(x * atrums, rb.velocity.y);
+        // Move
+        rb.linearVelocity = new Vector2(x * atrums, rb.linearVelocity.y);
     }
 
     private void OnDrawGizmosSelected()
