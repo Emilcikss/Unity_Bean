@@ -44,10 +44,7 @@
 
 <hr/>
 
-<h2 id="-preview">◈ PREVIEW</h2>
-
-<p><i>Pieliec savus screenshotus / GIF'us (ieteicams mapē Docs/ un nomainīt linkus).</i></p>
-
+<h2 id="-preview">◈ PREVIEW</h2>s
 <ul>
   <li><b>TV:</b> kanāli + statika + skaņas + mini notikumi</li>
   <li><b>UI_scene:</b> UI demo ar vairākām komponentēm</li>
