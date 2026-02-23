@@ -198,28 +198,6 @@
     <li><b>Build</b></li>
   </ol>
 </details>
-
-<hr/>
-
-<h2 id="-structure">◈ PROJECT STRUCTURE</h2>
-
-<pre>
-Assets/
-  Scenes/
-    MainMenu.unity
-    UI_scene.unity
-    TV.unity
-    RUN.unity
-  Scripts/
-    MainMenu/
-    TV/
-    RUN/
-  Images/
-  Sounds/ (vai sfx/)
-  Fonts/
-BANNER.png
-</pre>
-
 <hr/>
 
 <h2 id="-roadmap">◈ ROADMAP (mazs, bet jaudīgs)</h2>
